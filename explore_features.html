@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Idoraa - A complete employee life cycle management product-Book a Demo</title>
+</head>
+
+<body>
+    <div class="bg-background">
+        <nav class="bg-background">
+            <div class="">
+                <div class="flex justify-between">
+                    <div class="flex">
+                        <div>
+                            <a href="#" class="flex items-center py-5 px-7 xs:-ml-5">
+                                <img src="themes/img/idoraa-logo-1.png" srcset="themes/img/idoraa-logo-1@2x.png 2x"
+                                    alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hidden lg:flex md:flex items-center xl:space-x-1 xl:px-8 md:pl-0 md:px-0">
+                        <a href="#"
+                            class="xl:py-5 xl:px-3 md:py-2 md:px-1 font-titiliumWeb text-base text-white font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">Home</a>
+                        <a href="#"
+                            class="xl:py-5 xl:px-3 md:py-2 md:px-1 font-titiliumWeb text-base text-white font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">About</a>
+                        <a href="#"
+                            class="xl:py-5 xl:px-3 md:py-2 md:px-1 font-titiliumWeb text-base text-white font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">Problem</a>
+                        <a href="#"
+                            class="xl:py-5 xl:px-3 md:py-2 md:px-1 font-titiliumWeb text-base text-white font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">Solutions</a>
+                        <a href="#"
+                            class="xl:py-5 xl:px-3 md:py-2 md:px-1 font-titiliumWeb text-base text-white font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">Modules</a>
+                        <a href="#"
+                            class="xl:py-5 xl:px-3 md:py-2 md:px-1 font-titiliumWeb text-base text-white font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">Contact
+                            Us</a>
+                        <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownInformation">
+                            <a href="#"
+                                class="block py-2 px-4 font-titiliumWeb text-base text-white font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">Login
+                                <svg class="ml-2 w-4 h-4 inline-flex" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M19 9l-7 7-7-7">
+                                    </path>
+                                </svg>
+                            </a>
+                        </button>
+
+
+                        <a href="book.html"
+                            class="px-5 xl:py-2.5 md:px-2 bg-white rounded-full font-titiliumWeb font-bold text-center">Book
+                            a Demo</a>
+                    </div>
+
+                    <!-- mobile button goes here -->
+                    <div class="md:hidden flex items-center">
+                        <a href="book.html"
+                            class="px-5 py-2.5 mr-4 xs:px-4 bg-white text-black rounded-full font-titiliumWeb font-bold text-center">Book
+                            a Demo</a>
+                        <button data-collapse-toggle="mobile-menu" type="button"
+                            class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                            aria-controls="mobile-menu-2" aria-expanded="false">
+                            <span class="sr-only">Open main menu</span>
+                            <svg class="w-6 h-6" fill="#fff" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- mobile menu -->
+            <div class="mobile-menu hidden md:hidden" id="mobile-menu">
+                <a href="#"
+                    class="block py-2 px-4 font-titiliumWeb text-base text-white font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">Home</a>
+                <a href="#"
+                    class="block py-2 px-4 font-titiliumWeb text-base text-white font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">About</a>
+                <a href="#"
+                    class="block py-2 px-4 font-titiliumWeb text-base text-white font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">Problem</a>
+                <a href="#"
+                    class="block py-2 px-4 font-titiliumWeb text-base text-white font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">Solutions</a>
+                <a href="#"
+                    class="block py-2 px-4 font-titiliumWeb text-base text-white font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">Modules</a>
+                <a href="#"
+                    class="block py-2 px-4 font-titiliumWeb text-base text-white font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">Contact
+                    Us</a>
+                <div class="inline-block text-left dropdown">
+                    <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownInformation">
+                        <a href="#"
+                            class="block py-2 px-4 font-titiliumWeb text-base text-white font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">Login
+                            <svg class="ml-2 w-4 h-4 inline-flex" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7">
+                                </path>
+                            </svg>
+                        </a>
+                    </button>
+
+                </div>
+            </div>
+        </nav>
+        <div id="dropdownInformation"
+            class="hidden z-10 w-44 text-base list-none bg-black divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
+            <ul class="py-1" aria-labelledby="dropdownInformationButton">
+                <li>
+                    <a href="#"
+                        class="block py-2 px-4 text-base text-white hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Employee</a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="block py-2 px-4 text-base text-white hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Employer</a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="block py-2 px-4 text-base text-white hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Visitor/Personal</a>
+                </li>
+            </ul>
+        </div>
+        <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
+            <!--Left Col-->
+            <div class="flex flex-col w-full lg:w-1/2 justify-center items-start pt-12 pb-24 px-6">
+                <p class="font-Gilroy text-5xl font-extrabold text-white xs:text-5xl">Vendor Management
+                    System</p>
+                <p class="text-white text-lg font-titiliumWeb">A vendor management system is an Internet-enabled, often
+                    Web-based
+                    application that acts as a mechanism for business to
+                    manage and procure staffing services – temporary, and, in some cases, permanent placement services –
+                    as well as outside
+                    contract or contingent labor.</p>
+            </div>
+            <!--Right Col-->
+            <div class="w-full lg:w-1/2 lg:py-6 text-center -mt-16 ml-16 xs:ml-1">
+                <!--Add your product image here-->
+                <img src="themes/img/vendor_management_system.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div>
+        <div>
+            <h1 class="text-5xl font-Gilroy font-extrabold ml-6">Key Feature</h1>
+        </div>
+        <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
+            <div class="flex flex-col w-full lg:w-1/2 justify-center items-start pb-24 px-6">
+                <div class="grid grid-rows-2 grid-flow-row">
+                    <div>
+                        <div class="flex">
+                            <img src="themes/img/check-in.png" class="object-contain -mt-24"
+                                srcset="themes/img/check-in@2x.png 2x, themes/img/check-in@3x.png 3x" alt="">
+                            <div class="flex flex-col">
+                                <h1 class="ml-6 text-icon_color font-Gilroy font-extrabold text-xl">
+                                    Touch-less Check-in
+                                </h1>
+                                <p class="text-light-dark-gray text-xl text-left ml-7">
+                                    Idorra provide a safe, efficient, Touch-less and easy check-in experience for
+                                    Visitors. No security check required any
+                                    more. Only approved visitor will enter in the premises.
+                                </p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex mt-10">
+                            <img src="themes/img/food.png" class="object-contain -mt-7"
+                                srcset="themes/img/food@2x.png 2x, themes/img/food@3x.png 3x" alt="">
+                            <div class="flex flex-col">
+                                <h1 class="ml-4 text-icon_color font-Gilroy font-extrabold text-xl">
+                                    Pre-Ordered Food & Beverages
+                                </h1>
+                                <p class="text-light-dark-gray text-xl text-left ml-4">
+                                    It’s interesting, how Visitor can order his/her food or beverages preferences in
+                                    advance.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col w-full lg:w-1/2 justify-center items-end pt-12 pb-24 px-6">
+                <div class="grid grid-rows-2 grid-flow-row -mt-10">
+                    <div>
+                        <div class="flex mt-10">
+                            <img src="themes/img/wifi_icon.png" class="object-contain -mt-28"
+                                srcset="themes/img/wifi_icon@2x.png 2x, themes/img/wifi_icon@3x.png 3x" alt="">
+                            <div class="flex flex-col -mt-3.5rem">
+                                <h1 class="ml-4 text-icon_color font-Gilroy font-extrabold text-xl">
+                                    Automated Wi-Fi Access for Visitor
+                                </h1>
+                                <p class="text-light-dark-gray text-xl text-left ml-4">
+                                    Our automated product gives Wi-Fi details to visitor in advance before he/she enters
+                                    in the premises. (Access will pre
+                                    approved by host). </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex mt-10">
+                            <img src="themes/img/meeting.png"
+                                srcset="themes/img/meeting@2x.png 2x,themes/img/meeting@3x.png 3x"
+                                class="object-contain -mt-7" alt="">
+                            <div class="flex flex-col">
+                                <h1 class="ml-4 text-icon_color font-Gilroy font-extrabold text-xl">
+                                    Meeting room allocation, Zero wait time
+                                </h1>
+                                <p class="text-light-dark-gray text-xl text-left ml-4">
+                                    Host can allocate the meeting room real-time while approving the request
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h1 class="text-black text-center font-extrabold text-5xl pt-4">Workflow</h1>
+        <div class="mt-10">
+            <img src="themes/img/workflow.png" srcset="themes/img/workflow@2x.png 2x,themes/img/workflow@3x.png" alt="">
+        </div>
+    </div>
+    <div class="bg-black mt-5">
+        <h1 class="text-white text-center font-extrabold text-5xl pt-4">Screens</h1>
+        <div class="grid grid-cols-6 gap-4 mt-5">
+            <div>
+                <img src="themes/img/screen_1.png" srcset="themes/img/screen_1@2x.png 2x, themes/img/screen_1@3x.png 3x"
+                    alt="">
+            </div>
+            <div>
+                <img src="themes/img/screen_2.png" srcset="themes/img/screen_2@2x.png 2x, themes/img/screen_2@3x.png 3x"
+                    alt="">
+            </div>
+            <div>
+                <img src="themes/img/screen_3.png" srcset="themes/img/screen_3@2x.png 2x, themes/img/screen_3@3x.png 3x"
+                    alt="">
+            </div>
+            <div>
+                <img src="themes/img/screen_4.png" srcset="themes/img/screen_4@2x.png 2x, themes/img/screen_4@3x.png 3x"
+                    alt="">
+            </div>
+            <div>
+                <img src="themes/img/screen_5.png" srcset="themes/img/screen_5@2x.png 2x, themes/img/screen_5@3x.png 3x"
+                    alt="">
+            </div>
+            <div>
+                <img src="themes/img/screen_6.png" srcset="themes/img/screen_6@2x.png 2x, themes/img/screen_6@3x.png 3x"
+                    alt="">
+            </div>
+        </div>
+        <div class="bg-cover bg-no-repeat pb-60 xs:pb-36 sm-l:pb-64 md:pb-16 mt-16"
+            style='background-image: url("themes/img/bg-2.png")'>
+            <div class="flex flex-row-reverse xs:text-xs font-Gilroy_Bold text-5xl sm-l:text-4xl space-y-1">
+                <h1
+                    class="text-white xl:text-7xl xl:mt-40 xs:text-lg xs:-mb-96 sm-l:text-xl sm-l:-mb-96 sm-l:mt-8 xs:mt-3 sm-l:mr-8 md:text-3xl md:mt-20 md:mr-4">
+                    <span>Book a Demo &</span>
+                    <br><span>Let us show you</span> <br>
+                    <span>how it all works</span>
+                    <span class="flex xs:-mt-24 sm-l:-mt-32 ">
+                        <a href="book.html"
+                            class=" bg-darkBlue rounded-full font-titiliumWeb font-bold text-center xl:px-5 xl:py-2.5 xs:text-xs xs:mt-24 xs:py-2 xs:-mr-28 sm-l:mt-32 sm-l:-mr-2 sm-l:text-2xl text-white xs:pt-2 xs:pl-4 xs:pr-4 xs:pb-2 sm-l:p-3 md:p-3">Book
+                            a Demo</a>
+                    </span>
+                </h1>
+            </div>
+        </div>
+
+        <div id="footer" class="bg-black">
+            <div class="container mx-auto flex flex-col md:flex-row items-center">
+                <div class=" flex flex-col w-full lg:w-1/2 justify-center items-start pt-12 pb-24 px-6">
+                    <img src="themes/img/idoraa-logo-1.png"
+                        srcset="themes/img/idoraa-logo-1@2x.png 2x,themes/img/idoraa-logo-1@3x.png 3x" alt="">
+                    <div class="grid grid-cols-4 gap-4 mt-10">
+                        <div class="grid-rows-2 gap-2">
+                            <p class="font-titiliumWeb font-semibold text-darkgray xs:text-xs">Registered</p>
+                            <img src="themes/img/msme.png" srcset="themes/img/msme@2x.png 2x,themes/img/msme@3x.png 3x"
+                                alt="">
+                        </div>
+                        <div class="grid-rows-2 gap-2">
+                            <p class="font-titiliumWeb font-semibold text-darkgray xs:text-xs">In Process</p>
+                            <img src="themes/img/startup.png"
+                                srcset="themes/img/startup@2x.png 2x,themes/img/startup@3x.png 3x" alt="">
+                        </div>
+                        <div class="grid-rows-2 gap-2">
+                            <p class="font-titiliumWeb font-semibold text-darkgray xs:text-xs">Applied</p>
+                            <img src="themes/img/property.png"
+                                srcset="themes/img/property@2x.png 2x,themes/img/property@3x.png 3x" alt="">
+                        </div>
+                        <div class="grid-rows-2 gap-2">
+                            <p class="font-titiliumWeb font-semibold text-darkgray xs:text-xs">Make In India</p>
+                            <img src="themes/img/make_in_india.png"
+                                srcset="themes/img/make_in_india@2x.png 2x,themes/img/make_in_india@3x.png 3x" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex lg:w-1/2 lg:py-6 justify-end">
+                    <div class="grid grid-rows-3 gap-4 items-end xs:grid-row-3 md:grid-row-3">
+                        <a href="https://play.google.com/store/apps/details?id=com.idoraa.app">
+                            <img src="themes/img/google_play.png"
+                                srcset="themes/img/google_play@2x.png 2x,themes/img/google_play@3x.png 3x" alt="">
+                        </a>
+                        <a href="https://apps.apple.com/in/app/idoraa/id1602835506">
+                            <img src="themes/img/app_store.png"
+                                srcset="themes/img/app_store@2x.png 2x,themes/img/app_store@3x.png 3x" alt="">
+                        </a>
+                        <a href="">
+                            <img src="themes/img/website.png"
+                                srcset="themes/img/website@2x.png 2x,themes/img/website@3x.png 3x" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer relative pt-1 border-b-2 border-blue-700 bg-[#131212]">
+            <div class="px-6">
+                <div class="sm:flex sm:mt-8">
+                    <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-around">
+                        <div class="flex flex-col">
+                            <span class="my-2 py-2"><a href="#"
+                                    class="text-base hover:text-blue-500 text-footer-gray-text">Why
+                                    Idoraa</a></span>
+                            <span class="my-2 py-2"><a href="#"
+                                    class="text-base hover:text-blue-500 text-footer-gray-text">Solutions</a></span>
+                            <span class="my-2 py-2"><a href="#"
+                                    class="text-base hover:text-blue-500 text-footer-gray-text">Modules</a></span>
+                            <span class="my-2 py-2"><a href="#"
+                                    class="text-base hover:text-blue-500 text-footer-gray-text">Book
+                                    a
+                                    Demo</a></span>
+                            <span class="my-2 py-2"><a href="#"
+                                    class="text-base hover:text-blue-500 text-footer-gray-text">Terms and
+                                    Conditions</a></span>
+                            <span class="my-2 py-2"><a href="#"
+                                    class="text-base hover:text-blue-500 text-footer-gray-text">Privacy
+                                    Policy</a></span>
+                        </div>
+                        <div class="flex flex-col">
+                            <span
+                                class="font-bold text-base font-HelveticaNeue text-[#bababa] mt-4 md:mt-0 mb-2">Modules</span>
+                            <span class="my-2 py-2"><a href="#"
+                                    class="text-base hover:text-blue-500 text-footer-gray-text">VMS</a></span>
+                            <span class="my-2 py-2"><a href="#"
+                                    class="text-base hover:text-blue-500 text-footer-gray-text">Attendance</a></span>
+                            <span class="my-2 py-2"><a href="#"
+                                    class="text-base hover:text-blue-500 text-footer-gray-text">Travel</a></span>
+                            <span class="my-2 py-2"><a href="#"
+                                    class="text-base hover:text-blue-500 text-footer-gray-text">Cafeteria</a></span>
+                            <span class="my-2 py-2"><a href="#"
+                                    class="text-base hover:text-blue-500 text-footer-gray-text">Assets</a></span>
+                            <span class="my-2 py-2"><a href="#"
+                                    class="text-base hover:text-blue-500 text-footer-gray-text">Payroll</a></span>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="font-bold font-HelveticaNeue text-[#bababa] mt-4 md:mt-0 mb-2">Upcoming
+                                Modules</span>
+                            <span class="my-2 py-2"><a href="#"
+                                    class="text-base hover:text-blue-500 text-footer-gray-text">Facial
+                                    Recognition</a></span>
+                            <span class="my-2 py-2"><a href="#"
+                                    class="text-base hover:text-blue-500 text-footer-gray-text">Skills
+                                    Matrix</a></span>
+                            <span class="my-2 py-2"><a href="#"
+                                    class="text-base hover:text-blue-500 text-footer-gray-text">Education &
+                                    Manufacturing Sector</a></span>
+                            <span class="my-2 py-2"><a href="#"
+                                    class="text-base hover:text-blue-500 text-footer-gray-text">Specific
+                                    Modules</a></span>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="font-bold font-HelveticaNeue text-[#bababa] mt-4 md:mt-0 mb-2">Upcoming
+                                Modules</span>
+                            <span class="my-2 py-2"><a href="#"
+                                    class="text-base hover:text-blue-500 text-footer-gray-text">Health</a></span>
+                            <span class="my-2 py-2"><a href="#"
+                                    class="text-base hover:text-blue-500 text-footer-gray-text">ITSM</a></span>
+                            <span class="my-2 py-2"><a href="#"
+                                    class="text-base hover:text-blue-500 text-footer-gray-text">Activities</a></span>
+                            <span class="my-2 py-2"><a href="#"
+                                    class="text-base hover:text-blue-500 text-footer-gray-text">Windoraa</a></span>
+                            <span class="my-2 py-2"><a href="#"
+                                    class="text-base hover:text-blue-500 text-footer-gray-text">Idoraa
+                                    Assistant</a></span>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="font-bold text-[#bababa] mt-4 md:mt-0 mb-2">Follow us on</span>
+                            <a href="#" class="text-base hover:text-blue-500 text-footer-gray-text py-2">
+                                <div class="flex flex-row">
+                                    <img src="themes/img/facebook.png" class="object-contain mr-3"
+                                        srcset="themes/img/facebook@2x.png 2x,themes/img/facebook@3x.png 3x"
+                                        alt="facebook">
+                                    <span class="my-2">
+                                        <a href="#"
+                                            class="text-base hover:text-blue-500 text-footer-gray-text mx-1.5">Facebook</a>
+                                    </span>
+                                </div>
+                            </a>
+                            <span class="my-2">
+                                <a href="#" class=" text-base hover:text-blue-500 text-footer-gray-text">
+                                    <div class="flex flex-row">
+                                        <img src="themes/img/twitter.png" class="object-contain"
+                                            srcset="themes/img/twitter@2x.png 2x,themes/img/twitter@3x.png 3x"
+                                            alt="youtube">
+                                        <span class="my-2">
+                                            <p
+                                                class="text-base hover:text-blue-500 text-footer-gray-text -mt-[6px] mx-1.5">
+                                                Twitter</p>
+                                        </span>
+                                    </div>
+                                </a></span>
+                            <span class="my-2">
+                                <a href="#" class=" text-base hover:text-blue-500 text-footer-gray-text">
+                                    <div class="flex flex-row">
+                                        <img src="themes/img/whatsapp.png" class="object-contain"
+                                            srcset="themes/img/whatsapp@2x.png 2x,themes/img/whatsapp@3x.png 3x"
+                                            alt="youtube">
+                                        <span class="my-2">
+                                            <p
+                                                class="text-base hover:text-blue-500 text-footer-gray-text -mt-[6px] mx-1.5">
+                                                Whatsapp</p>
+                                        </span>
+                                    </div>
+                                </a></span>
+                            <span class="my-2">
+                                <a href="#" class="text-base hover:text-blue-500 text-footer-gray-text">
+                                    <div class="flex flex-row">
+                                        <img src="themes/img/youtube.png" class="object-contain"
+                                            srcset="themes/img/youtube@2x.png 2x,themes/img/youtube@3x.png 3x"
+                                            alt="youtube">
+                                        <span class="my-2">
+                                            <p href="#"
+                                                class="text-base hover:text-blue-500 text-footer-gray-text -mt-[6px] mx-1.5">
+                                                Youtube</p>
+                                        </span>
+                                    </div>
+                                </a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-auto px-6 bg-black">
+                <div class="mt-16 flex flex-col items-center">
+                    <div class="sm:w-2/3 text-center py-6 text-blue">
+                        <p class="text-sm font-HelveticaNeue font-bold mb-2 text-copyright-color">
+                            Copyright © 2022. All Rights Reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script defer src="./node_modules/flowbite/dist/flowbite.js"></script>
+</body>
+
+</html>

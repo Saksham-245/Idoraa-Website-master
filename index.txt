@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="shortcut icon" sizes="192x192" href="android-chrome-192x192.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="android-chrome-512x512.png" type="image/x-icon" />
+  <title>Idoraa - A complete employee life cycle management product</title>
+</head>
+
+<body>
+  <div class="bg-background">
+    <nav class="
+    flex
+    flex-wrap
+      items-center
+      justify-end
+      w-full
+      py-4
+      md:py-0
+      px-4
+      text-lg text-gray-700
+      bg-background
+      ">
+      <div class="flex md:order-2">
+        <button
+          class="bg-darkBlue px-5 py-2.5 text-white rounded-full font-titiliumWeb font-bold mr-2 text-center hiiden md:block">Book
+          a Demo</button>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" id="menu-button" class="h-6 w-6 cursor-pointer md:hidden block"
+        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+
+      <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+        <ul class="
+                    pt-4
+                    text-base text-gray-700
+                    md:flex
+                    md:justify-between 
+                    md:pt-0">
+          <li>
+            <a class="md:p-4 py-2 block font-titiliumWeb text-base text-white font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8"
+              href="#">Home</a>
+          </li>
+          <li>
+            <a class="md:p-4 py-2 block font-titiliumWeb text-base text-white font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8"
+              href="#">About</a>
+          </li>
+          <li>
+            <a class="md:p-4 py-2 block font-titiliumWeb text-base text-white font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8"
+              href="#">Problem</a>
+          </li>
+          <li>
+            <a class="md:p-4 py-2 block font-titiliumWeb text-base text-white font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8"
+              href="#">Solutions</a>
+          </li>
+          <li>
+            <a class="md:p-4 py-2 block font-titiliumWeb text-base font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8 text-white"
+              href="#">Modules</a>
+          </li>
+          <li>
+            <a class="md:p-4 py-2 block font-titiliumWeb text-base font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8 text-white"
+              href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="dropdownInformation"
+      class="hidden z-10 w-44 text-base list-none bg-black divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
+      <ul class="py-1" aria-labelledby="dropdownInformationButton">
+        <li>
+          <a href="#"
+            class="block py-2 px-4 text-base text-white hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Employee</a>
+        </li>
+        <li>
+          <a href="#"
+            class="block py-2 px-4 text-base text-white hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Employer</a>
+        </li>
+        <li>
+          <a href="#"
+            class="block py-2 px-4 text-base text-white hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Visitor/Personal</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+    <div class="pt-24 flex flex-col justify-center items-center">
+      <h1
+        class="font-extrabold leading-tight text-7xl mt-15 text-white font-GilroyBoldBold xs:text-6xl md:text-8xl lg:text-10xl xl:text-12xl font-Gilroy">
+        Idoraa
+      </h1>
+      <span
+        class="font-extrabold text-transparent leading-2.75 text-3xl bg-clip-text bg-gradient-to-r from-orange via-pink to-blue font-Gilroy xs:text-sm">
+        A SuperApp to manage entire Employee’s Lifecycle
+      </span>
+    </div>
+
+    <div class="mt-5">
+      <div class="xs:flex xs:items-center xs:justify-center sm:hidden md:hidden lg:hidden xl:hidden">
+        <img src="themes/img/1-dashboard.png" class="h-80" srcset="
+              themes/img/1-dashboard@2x.png 2x,
+              themes/img/1-dashboard@3x.png 3x
+            " alt="attendance" />
+      </div>
+    </div>
+    <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
+      <div class="flex flex-col w-full lg:w-1/2 justify-center items-start pb-24 px-6">
+        <div class="grid grid-rows-3 grid-flow-row">
+          <div>
+            <h1 class="font-Gilroy font-extrabold text-xl xs:text-lg text-right xs:text-center text-gray mb-1 ml-1">
+              LOW CODE NO CODE SAAS Solution
+            </h1>
+            <p
+              class="font-titiliumWeb font-light leading-5 text-sm text-right xs:text-sm text-lightgray ml-10 xs:-mr-3 xs:ml-4">
+              Lorem ipsum is a placeholder text commonly used to demonstrate
+              the visual form of a document or a typeface without relying on
+              meaningful content.
+            </p>
+          </div>
+          <div class="mt-10 xs:mt-5">
+            <h1 class="font-Gilroy font-extrabold text-xl xs:text-lg text-right xs:text-center text-gray mb-1 ml-1">
+              FR & Location Based Attendance
+            </h1>
+            <p
+              class="font-titiliumWeb font-light leading-5 text-sm text-right xs:text-sm text-lightgray ml-10 xs:-mr-3 xs:ml-4">
+              Lorem ipsum is a placeholder text commonly used to demonstrate
+              the visual form of a document or a typeface without relying on
+              meaningful content.
+            </p>
+          </div>
+          <div class="mt-16 xs:mt-10">
+            <h1 class="font-Gilroy font-extrabold text-xl xs:text-lg text-right xs:text-center text-gray mb-1 ml-1">
+              END to END Digitization of VMS
+            </h1>
+            <p
+              class="font-titiliumWeb font-light leading-5 text-sm text-right xs:text-sm text-lightgray ml-10 xs:-mr-3 xs:ml-4">
+              Lorem ipsum is a placeholder text commonly used to demonstrate
+              the visual form of a document or a typeface without relying on
+              meaningful content.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="w-full lg:w-1/2 lg:py-6 text-center xs:hidden items-center justify-center flex">
+        <img src="themes/img/1-dashboard.png" srcset="
+              themes/img/1-dashboard@2x.png 2x,
+              themes/img/1-dashboard@3x.png 3x
+            " alt="attendance" />
+      </div>
+      <div class="flex flex-col w-full lg:w-1/2 justify-center items-end pt-12 pb-24 px-6">
+        <div class="grid grid-rows-3 grid-flow-row -mt-11 xs:-mt-20">
+          <div>
+            <h1 class="font-Gilroy font-extrabold text-xl xs:text-lg xs:text-center text-gray mb-1 ml-1">
+              Pre Built Industry based solution
+            </h1>
+            <p
+              class="font-titiliumWeb font-light leading-5 text-sm xs:text-sm text-lightgray ml-1 mr-8 xs:-mr-3 xs:ml-4">
+              Lorem ipsum is a placeholder text commonly used to demonstrate
+              the visual form of a document or a typeface without relying on
+              meaningful content.
+            </p>
+          </div>
+          <div class="mt-10 xs:mt-5">
+            <h1 class="font-Gilroy font-extrabold text-xl xs:text-lg xs:text-center text-gray mb-1 ml-1 xs:-ml-48">
+              Single UI/UX
+            </h1>
+            <p
+              class="font-titiliumWeb font-light leading-5 text-sm xs:text-sm text-lightgray ml-1 mr-8 xs:-mr-3 xs:ml-5">
+              Lorem ipsum is a placeholder text commonly used to demonstrate
+              the visual form of a document or a typeface without relying on
+              meaningful content.
+            </p>
+          </div>
+          <div class="mt-16 xs:mt-10">
+            <h1 class="font-Gilroy font-extrabold text-xl xs:text-lg xs:text-center text-gray mb-1 ml-1 xs:-ml-44">
+              Data Security
+            </h1>
+            <p
+              class="font-titiliumWeb font-light leading-5 text-sm xs:text-sm text-lightgray ml-1 mr-8 xs:-mr-3 xs:ml-6">
+              Lorem ipsum is a placeholder text commonly used to demonstrate
+              the visual form of a document or a typeface without relying on
+              meaningful content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="mt-12 pb-5">
+      <h1 class="font-Gilroy text-black text-6xl font-extrabold leading-4 ml-20 xs:text-center xs:text-4xl xs:ml-1">
+        Why Idoraa
+      </h1>
+      <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
+        <div class="flex flex-col w-full lg:w-1/2 -mt-6 xs:ml-4 ml-28">
+          <div>
+            <h1 class="font-Gilroy text-xl font-extrabold xs:ml-6 text-lightdarkgray xs:text-xl leading-6">
+              Unified Platform
+            </h1>
+            <p class="text-darkgray font-light font-titiliumWeb text-base xs:text-base xs:ml-7">
+              to manager entire employee life cycle from hire to retire.
+            </p>
+          </div>
+          <div class="mt-7">
+            <h1 class="font-Gilroy text-xl font-extrabold xs:ml-6 xs:text-xl text-lightdarkgray leading-6">
+              Seamless Travel Booking Experience
+            </h1>
+            <p class="text-darkgray font-light font-titiliumWeb text-base xs:text-base xs:ml-7">
+              with built-in workflows & Exceptions
+            </p>
+          </div>
+          <div class="mt-7">
+            <h1 class="font-Gilroy text-2xl font-extrabold xs:ml-6 xs:text-xl text-lightdarkgray leading-6">
+              1 Man Day Saving Every Month
+            </h1>
+            <p class="text-darkgray font-light font-titiliumWeb text-base xs:text-base xs:ml-7">
+              for all managers punching
+            </p>
+          </div>
+          <div class="mt-7">
+            <h1 class="font-Gilroy text-xl font-extrabold xs:ml-6 xs:text-xl text-lightdarkgray leading-6">
+              Eliminate Proxy
+            </h1>
+            <p class="text-darkgray font-light font-titiliumWeb text-base xs:text-base xs:ml-7">
+              0% error rate
+            </p>
+          </div>
+          <div class="mt-7">
+            <h1 class="font-Gilroy text-xl font-extrabold xs:ml-6 xs:text-xl text-lightdarkgray leading-6">
+              Safety & Hygenie
+            </h1>
+            <p class="text-darkgray font-light font-titiliumWeb text-base xs:text-base xs:ml-7">
+              Facilitate employee safety & hygine
+            </p>
+          </div>
+          <div class="mt-7">
+            <h1 class="font-Gilroy text-xl font-extrabold xs:ml-6 xs:text-xl text-lightdarkgray leading-6">
+              Greater Efficiency & Simplified
+            </h1>
+            <p class="text-darkgray font-light font-titiliumWeb text-base xs:text-base xs:ml-7">
+              100% autonomy, and empower employees to reach greater efficiency
+              & day-to-day transnational aspects of HR management & All other
+              functions
+            </p>
+          </div>
+          <div class="mt-7">
+            <h1 class="font-Gilroy text-xl font-extrabold xs:ml-6 xs:text-xl text-lightdarkgray leading-6">
+              Improve Brand Image
+            </h1>
+            <p class="text-darkgray font-light font-titiliumWeb text-base xs:text-base xs:ml-7">
+              Employees & Visitors feel valued which helps to improve Brand
+              Image
+            </p>
+          </div>
+        </div>
+        <div class="inline-flex w-full lg:w-1/2 lg:py-6 text-center -mt-32 xs:mt-20 items-end flex-col">
+          <img src="themes/img/one_app.png" srcset="
+                themes/img/one_app@2x.png 2x,   
+                themes/img/one_app@3x.png 3x
+              " alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-48">
+    <div class="bg-green">
+      <div class="container mx-auto flex flex-col md:flex-row items-center my-12 -mt-32 h-64">
+        <!-- Left Col-->
+        <div class="flex flex-col w-full lg:w-1/2 justify-center items-start pt-12 pb-24 px-6 xs:hidden">
+          <img src="themes/img/approve_screen.png" class="absolute h-96 ml-10" alt="">
+        </div>
+        <!--Right Col-->
+        <div class="w-full lg:w-1/2 lg:py-6 text-center">
+          <!--Add your product image here-->
+          <h1
+            class="font-Gilroy font-light text-5xl -ml-24 leading-relaxed text-lightBlack xs:text-2xl xs:ml-4 xs:mt-20">
+            For Managers,
+            Manage all
+            approvals at ONE
+            Platform.</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-20">
+    <div>
+      <h1 class="font-Gilroy text-6xl flex items-center justify-center font-extrabold xs:text-2xl">
+        All your needs, in one Idoraa App
+      </h1>
+      <div class="mb-4 flex items-center justify-center mt-16">
+        <ul class="flex flex-wrap xs:flex xs:flex-nowrap xs:overflow-scroll" id="myTab"
+          data-tabs-toggle="#myTabContent" role="tablist">
+          <li class="mr-2" role="presentation">
+            <button class="inline-block py-4 px-4 border-b-2 border-transparent hover:text-gray-600 active"
+              id="vistor-tab" data-tabs-target="#vistor" type="button" role="tab" aria-controls="vistor"
+              aria-selected="true">
+              <span class="flex flex-row">
+                <img src="themes/img/vistor.svg" alt="" />
+                <span class="inline-block text-center py-1 px-2 text-xl">Vistor</span>
+              </span>
+            </button>
+          </li>
+          <li class="mr-2" role="presentation">
+            <button class="inline-block py-4 px-4 border-b-2 border-transparent hover:text-gray-600" id="attendance-tab"
+              data-tabs-target="#attendance" type="button" role="tab" aria-controls="attendance" aria-selected="false">
+              <span class="flex flex-row">
+                <img src="themes/img/attendance.svg" alt="" />
+                <span class="inline-block text-center py-1 px-2 text-xl">Attendance</span>
+              </span>
+            </button>
+          </li>
+          <li class="mr-2" role="presentation">
+            <button class="inline-block py-4 px-4 border-b-2 border-transparent hover:text-gray-600" id="travel-tab"
+              data-tabs-target="#travel" type="button" role="tab" aria-controls="travel" aria-selected="false">
+              <span class="flex flex-row">
+                <img src="themes/img/travel.svg" alt="" />
+                <span class="inline-block text-center py-1 px-2 text-xl">Travel</span>
+              </span>
+            </button>
+          </li>
+          <li role="presentation">
+            <button class="inline-block py-4 px-4 border-b-2 border-transparent hover:text-gray-600" id="cafeteria-tab"
+              data-tabs-target="#cafeteria" type="button" role="tab" aria-controls="cafeteria" aria-selected="false">
+              <span class="flex flex-row">
+                <img src="themes/img/cafteria.svg" alt="" />
+                <span class="inline-block text-center py-1 px-2 text-xl">Cafteria</span>
+              </span>
+            </button>
+          </li>
+          <li role="presentation">
+            <button class="inline-block py-4 px-4 border-b-2 border-transparent hover:text-gray-600" id="payroll-tab"
+              data-tabs-target="#payroll" type="button" role="tab" aria-controls="payroll" aria-selected="false">
+              <span class="flex flex-row">
+                <img src="themes/img/payroll.svg" alt="" />
+                <span class="inline-block text-center py-1 px-2 text-xl">Payroll</span>
+              </span>
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div id="myTabContent">
+        <div class="p-4 bg-gray-50 rounded-lg dark:bg-gray-800" id="vistor" role="tabpanel"
+          aria-labelledby="vistor-tab">
+          <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
+            <div class="w-full lg:w-1/2 lg:py-6 text-center ml-16 -mt-16">
+              <img src="themes/img/vistor_screen.png"
+                srcset="themes/img/vistor_screen@2x.png 2x,themes/img/vistor_screen@3x.png 3x" alt="">
+            </div>
+            <div class="flex flex-col w-full lg:w-1/2 justify-center items-start -ml-48 -mt-40 xs:mt-20 xs:ml-0">
+              <h1 class="tracking-loose font-Gilroy font-extrabold text-2xl text-darkBlue">Seamless, Touch-less
+                Experience for Visitors</h1>
+              <p class="font-extrabold text-4xl font-Gilroy mt-5">Visitor Management System
+              </p>
+              <p class="font-titiliumWeb text-xl mt-3.5">A vendor management system is an Internet-enabled, often
+                Web-based
+                application that acts as a mechanism for business to
+                manage and procure staffing services – temporary, and, in some cases, permanent placement services – as
+                well as outside
+                contract or contingent labor.</p>
+
+              <div class="grid grid-cols-4 gap-4 ml-4 mt-12 xs:grid-flow-col xs:table-column-group xs:ml-12">
+                <div>
+                  <div class="flex flex-col items-center">
+                    <img src="themes/img/touchless_check_in.png"
+                      srcset="themes/img/touchless_check_in@2x.png 2x,themes/img/touchless_check_in@3x.png 3x" alt=""
+                      class="">
+                    <p class="font-titiliumWeb text-base text-center">Touch-less Check-in</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex flex-col items-center">
+                    <img src="themes/img/wifi-icon.png"
+                      srcset="themes/img/wifi-icon@2x.png 2x, themes/img/wifi-icon@3x.png 3x" alt="" class="">
+                    <p class="font-titiliumWeb text-base">Automated Wi-Fi Access for Visitor</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex flex-col items-center">
+                    <img src="themes/img/cafteria.png"
+                      srcset="themes/img/cafteria@2x.png 2x,themes/img/cafteria@3x.png 3x" alt="">
+                    <p class="font-titiliumWeb text-base text-center">Pre-Ordered Food & Beverages</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex flex-col items-center">
+                    <img src="themes/img/meeting-icon.png"
+                      srcset="themes/img/meeting-icon@2x.png 2x,themes/img/meeting-icon@3x.png 3x" alt="" class="">
+                    <p class="font-titiliumWeb text-base text-center">Meeting room allocation, Zero wait time</p>
+                  </div>
+                </div>
+              </div>
+
+              <a href="explore_features.html" class="mt-10">
+                <p class="font-Gilroy font-extrabold text-2xl text-darkBlue flex">Explore Features <span><svg width="31"
+                      class="mt-0.5" height="31" viewBox="0 0 31 31" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="m17.036 15.5-5.127-5.127a.969.969 0 1 1 1.37-1.37l5.812 5.812a.969.969 0 0 1 0 1.37l-5.812 5.813a.969.969 0 0 1-1.37-1.37l5.127-5.128z"
+                        fill="#0A84FF" fill-rule="evenodd" />
+                    </svg>
+                  </span></p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800" id="attendance" role="tabpanel"
+          aria-labelledby="attendance-tab">
+          <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
+            <div class="w-full lg:w-1/2 lg:py-6 text-center ml-16 -mt-16">npm install parcel-bundler --save-dev
+              <img src="themes/img/vistor_screen.png"
+                srcset="themes/img/vistor_screen@2x.png 2x,themes/img/vistor_screen@3x.png 3x" alt="">
+            </div>
+            <div class="flex flex-col w-full lg:w-1/2 justify-center items-start -ml-48 -mt-40 xs:mt-20 xs:ml-0">
+              <h1 class="tracking-loose font-Gilroy font-extrabold text-2xl text-darkBlue">Seamless, Touch-less
+                Experience for Visitors</h1>
+              <p class="font-extrabold text-4xl leading-[40px] font-Gilroy mt-5">Attendance Management System
+              </p>
+              <p class="font-titiliumWeb text-xl mt-3.5">A vendor management system is an Internet-enabled, often
+                Web-based
+                application that acts as a mechanism for business to
+                manage and procure staffing services – temporary, and, in some cases, permanent placement services – as
+                well as outside
+                contract or contingent labor.</p>
+
+              <div class="grid grid-cols-4 gap-4 ml-4 mt-12 xs:grid-flow-col xs:table-column-group xs:ml-12">
+                <div>
+                  <div class="flex flex-col items-center">
+                    <img src="themes/img/touchless_check_in.png"
+                      srcset="themes/img/touchless_check_in@2x.png 2x,themes/img/touchless_check_in@3x.png 3x" alt=""
+                      class="">
+                    <p class="font-titiliumWeb text-base text-center">Touch-less Check-in</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex flex-col items-center">
+                    <img src="themes/img/wifi-icon.png"
+                      srcset="themes/img/wifi-icon@2x.png 2x, themes/img/wifi-icon@3x.png 3x" alt="" class="">
+                    <p class="font-titiliumWeb text-base">Automated Wi-Fi Access for Visitor</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex flex-col items-center">
+                    <img src="themes/img/cafteria.png"
+                      srcset="themes/img/cafteria@2x.png 2x,themes/img/cafteria@3x.png 3x" alt="">
+                    <p class="font-titiliumWeb text-base text-center">Pre-Ordered Food & Beverages</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex flex-col items-center">
+                    <img src="themes/img/meeting-icon.png"
+                      srcset="themes/img/meeting-icon@2x.png 2x,themes/img/meeting-icon@3x.png 3x" alt="" class="">
+                    <p class="font-titiliumWeb text-base text-center">Meeting room allocation, Zero wait time</p>
+                  </div>
+                </div>
+              </div>
+
+              <a href="explore_features.html" class="mt-10">
+                <p class="font-Gilroy font-extrabold text-2xl text-darkBlue flex">Explore Features <span><svg width="31"
+                      class="mt-0.5" height="31" viewBox="0 0 31 31" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="m17.036 15.5-5.127-5.127a.969.969 0 1 1 1.37-1.37l5.812 5.812a.969.969 0 0 1 0 1.37l-5.812 5.813a.969.969 0 0 1-1.37-1.37l5.127-5.128z"
+                        fill="#0A84FF" fill-rule="evenodd" />
+                    </svg>
+                  </span></p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800" id="travel" role="tabpanel"
+          aria-labelledby="travel-tab">
+          <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
+            <div class="w-full lg:w-1/2 lg:py-6 text-center ml-16 -mt-16">
+              <img src="themes/img/vistor_screen.png"
+                srcset="themes/img/vistor_screen@2x.png 2x,themes/img/vistor_screen@3x.png 3x" alt="">
+            </div>
+            <div class="flex flex-col w-full lg:w-1/2 justify-center items-start -ml-48 -mt-40 xs:mt-20 xs:ml-0">
+              <h1 class="tracking-loose font-Gilroy font-extrabold text-2xl text-darkBlue">Seamless, Touch-less
+                Experience for Visitors</h1>
+              <p class="font-extrabold text-4xl leading-[40px] font-Gilroy mt-5">Travel Management System
+              </p>
+              <p class="font-titiliumWeb text-xl mt-3.5">A vendor management system is an Internet-enabled, often
+                Web-based
+                application that acts as a mechanism for business to
+                manage and procure staffing services – temporary, and, in some cases, permanent placement services – as
+                well as outside
+                contract or contingent labor.</p>
+
+              <div class="grid grid-cols-4 gap-4 ml-4 mt-12 xs:grid-flow-col xs:table-column-group xs:ml-12">
+                <div>
+                  <div class="flex flex-col items-center">
+                    <img src="themes/img/touchless_check_in.png"
+                      srcset="themes/img/touchless_check_in@2x.png 2x,themes/img/touchless_check_in@3x.png 3x" alt=""
+                      class="">
+                    <p class="font-titiliumWeb text-base text-center">Touch-less Check-in</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex flex-col items-center">
+                    <img src="themes/img/wifi-icon.png"
+                      srcset="themes/img/wifi-icon@2x.png 2x, themes/img/wifi-icon@3x.png 3x" alt="" class="">
+                    <p class="font-titiliumWeb text-base">Automated Wi-Fi Access for Visitor</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex flex-col items-center">
+                    <img src="themes/img/cafteria.png"
+                      srcset="themes/img/cafteria@2x.png 2x,themes/img/cafteria@3x.png 3x" alt="">
+                    <p class="font-titiliumWeb text-base text-center">Pre-Ordered Food & Beverages</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex flex-col items-center">
+                    <img src="themes/img/meeting-icon.png"
+                      srcset="themes/img/meeting-icon@2x.png 2x,themes/img/meeting-icon@3x.png 3x" alt="" class="">
+                    <p class="font-titiliumWeb text-base text-center">Meeting room allocation, Zero wait time</p>
+                  </div>
+                </div>
+              </div>
+
+              <a href="explore_features.html" class="mt-10">
+                <p class="font-Gilroy font-extrabold text-2xl text-darkBlue flex">Explore Features <span><svg width="31"
+                      class="mt-0.5" height="31" viewBox="0 0 31 31" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="m17.036 15.5-5.127-5.127a.969.969 0 1 1 1.37-1.37l5.812 5.812a.969.969 0 0 1 0 1.37l-5.812 5.813a.969.969 0 0 1-1.37-1.37l5.127-5.128z"
+                        fill="#0A84FF" fill-rule="evenodd" />
+                    </svg>
+                  </span></p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800" id="cafeteria" role="tabpanel"
+          aria-labelledby="cafeteria-tab">
+          <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
+            <div class="w-full lg:w-1/2 lg:py-6 text-center ml-16 -mt-16">
+              <img src="themes/img/vistor_screen.png"
+                srcset="themes/img/vistor_screen@2x.png 2x,themes/img/vistor_screen@3x.png 3x" alt="">
+            </div>
+            <div class="flex flex-col w-full lg:w-1/2 justify-center items-start -ml-48 -mt-40 xs:mt-20 xs:ml-0">
+              <h1 class="tracking-loose font-Gilroy font-extrabold text-2xl text-darkBlue">Seamless, Touch-less
+                Experience for Visitors</h1>
+              <p class="font-extrabold text-4xl leading-[40px] font-Gilroy mt-5">Cafeteria Management System
+              </p>
+              <p class="font-titiliumWeb text-xl mt-3.5">A vendor management system is an Internet-enabled, often
+                Web-based
+                application that acts as a mechanism for business to
+                manage and procure staffing services – temporary, and, in some cases, permanent placement services – as
+                well as outside
+                contract or contingent labor.</p>
+
+              <div class="grid grid-cols-4 gap-4 ml-4 mt-12 xs:grid-flow-col xs:table-column-group xs:ml-12">
+                <div>
+                  <div class="flex flex-col items-center">
+                    <img src="themes/img/touchless_check_in.png"
+                      srcset="themes/img/touchless_check_in@2x.png 2x,themes/img/touchless_check_in@3x.png 3x" alt=""
+                      class="">
+                    <p class="font-titiliumWeb text-base text-center">Touch-less Check-in</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex flex-col items-center">
+                    <img src="themes/img/wifi-icon.png"
+                      srcset="themes/img/wifi-icon@2x.png 2x, themes/img/wifi-icon@3x.png 3x" alt="" class="">
+                    <p class="font-titiliumWeb text-base">Automated Wi-Fi Access for Visitor</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex flex-col items-center">
+                    <img src="themes/img/cafteria.png"
+                      srcset="themes/img/cafteria@2x.png 2x,themes/img/cafteria@3x.png 3x" alt="">
+                    <p class="font-titiliumWeb text-base text-center">Pre-Ordered Food & Beverages</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex flex-col items-center">
+                    <img src="themes/img/meeting-icon.png"
+                      srcset="themes/img/meeting-icon@2x.png 2x,themes/img/meeting-icon@3x.png 3x" alt="" class="">
+                    <p class="font-titiliumWeb text-base text-center">Meeting room allocation, Zero wait time</p>
+                  </div>
+                </div>
+              </div>
+
+              <a href="explore_features.html" class="mt-10">
+                <p class="font-Gilroy font-extrabold text-2xl text-darkBlue flex">Explore Features <span><svg width="31"
+                      class="mt-0.5" height="31" viewBox="0 0 31 31" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="m17.036 15.5-5.127-5.127a.969.969 0 1 1 1.37-1.37l5.812 5.812a.969.969 0 0 1 0 1.37l-5.812 5.813a.969.969 0 0 1-1.37-1.37l5.127-5.128z"
+                        fill="#0A84FF" fill-rule="evenodd" />
+                    </svg>
+                  </span></p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800" id="payroll" role="tabpanel"
+          aria-labelledby="payroll-tab">
+          <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
+            <div class="w-full lg:w-1/2 lg:py-6 text-center ml-16 -mt-16">
+              <img src="themes/img/vistor_screen.png"
+                srcset="themes/img/vistor_screen@2x.png 2x,themes/img/vistor_screen@3x.png 3x" alt="">
+            </div>
+            <div class="flex flex-col w-full lg:w-1/2 justify-center items-start -ml-48 -mt-40 xs:mt-20 xs:ml-0">
+              <h1 class="tracking-loose font-Gilroy font-extrabold text-2xl text-darkBlue">Seamless, Touch-less
+                Experience for Visitors</h1>
+              <p class="font-extrabold text-4xl leading-[40px] font-Gilroy mt-5">Payroll Management System
+              </p>
+              <p class="font-titiliumWeb text-xl mt-3.5">A vendor management system is an Internet-enabled, often
+                Web-based
+                application that acts as a mechanism for business to
+                manage and procure staffing services – temporary, and, in some cases, permanent placement services – as
+                well as outside
+                contract or contingent labor.</p>
+
+              <div class="grid grid-cols-4 gap-4 ml-4 mt-12 xs:grid-flow-col xs:table-column-group xs:ml-12">
+                <div>
+                  <div class="flex flex-col items-center">
+                    <img src="themes/img/touchless_check_in.png"
+                      srcset="themes/img/touchless_check_in@2x.png 2x,themes/img/touchless_check_in@3x.png 3x" alt=""
+                      class="">
+                    <p class="font-titiliumWeb text-base text-center">Touch-less Check-in</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex flex-col items-center">
+                    <img src="themes/img/wifi-icon.png"
+                      srcset="themes/img/wifi-icon@2x.png 2x, themes/img/wifi-icon@3x.png 3x" alt="" class="">
+                    <p class="font-titiliumWeb text-base">Automated Wi-Fi Access for Visitor</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex flex-col items-center">
+                    <img src="themes/img/cafteria.png"
+                      srcset="themes/img/cafteria@2x.png 2x,themes/img/cafteria@3x.png 3x" alt="">
+                    <p class="font-titiliumWeb text-base text-center">Pre-Ordered Food & Beverages</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex flex-col items-center">
+                    <img src="themes/img/meeting-icon.png"
+                      srcset="themes/img/meeting-icon@2x.png 2x,themes/img/meeting-icon@3x.png 3x" alt="" class="">
+                    <p class="font-titiliumWeb text-base text-center">Meeting room allocation, Zero wait time</p>
+                  </div>
+                </div>
+              </div>
+
+              <a href="explore_features.html" class="mt-10">
+                <p class="font-Gilroy font-extrabold text-2xl text-darkBlue flex">Explore Features <span><svg width="31"
+                      class="mt-0.5" height="31" viewBox="0 0 31 31" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="m17.036 15.5-5.127-5.127a.969.969 0 1 1 1.37-1.37l5.812 5.812a.969.969 0 0 1 0 1.37l-5.812 5.813a.969.969 0 0 1-1.37-1.37l5.127-5.128z"
+                        fill="#0A84FF" fill-rule="evenodd" />
+                    </svg>
+                  </span></p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-28"
+    style='background-image: url("themes/img/woman-using-her-mobile-phone-city-skyline-night-light-background-1.png")'>
+    <div class="container flex flex-row-reverse">
+      <h1>idfhibsbdfgsd</h1>
+    </div>
+  </div>
+
+  <div class="mt-16 object-contain">
+    <img src="themes/img/bg-2.png" srcset="themes/img/bg-2@2x.png 2x, themes/img/bg-2@3x.png 3x" alt="">
+  </div>
+
+  <div id="footer" class="bg-black">
+    <div class="container mx-auto flex flex-col md:flex-row items-center mt-12 md:mt-24">
+      <!--Left Col-->
+      <div class="flex flex-col w-full lg:w-1/2 justify-center items-start pt-12 pb-24 px-6">
+        <img src="themes/img/idoraa-logo-1.png"
+          srcset="themes/img/idoraa-logo-1@2x.png 2x,themes/img/idoraa-logo-1@3x.png 3x" alt="">
+        <div class="grid grid-cols-4 gap-4 mt-10">
+          <div class="grid-rows-2 gap-2">
+            <p class="font-titiliumWeb font-semibold text-darkgray xs:text-xs">Registered</p>
+            <img src="themes/img/msme.png" srcset="themes/img/msme@2x.png 2x,themes/img/msme@3x.png 3x" alt="">
+          </div>
+          <div class="grid-rows-2 gap-2">
+            <p class="font-titiliumWeb font-semibold text-darkgray xs:text-xs">In Process</p>
+            <img src="themes/img/startup.png" srcset="themes/img/startup@2x.png 2x,themes/img/startup@3x.png 3x" alt="">
+          </div>
+          <div class="grid-rows-2 gap-2">
+            <p class="font-titiliumWeb font-semibold text-darkgray xs:text-xs">Applied</p>
+            <img src="themes/img/property.png" srcset="themes/img/property@2x.png 2x,themes/img/property@3x.png 3x"
+              alt="">
+          </div>
+          <div class="grid-rows-2 gap-2">
+            <p class="font-titiliumWeb font-semibold text-darkgray xs:text-xs">Make In India</p>
+            <img src="themes/img/make_in_india.png"
+              srcset="themes/img/make_in_india@2x.png 2x,themes/img/make_in_india@3x.png 3x" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="flex lg:w-1/2 lg:py-6 justify-around">
+        <div class="grid grid-rows-3 gap-4 items-end xs:grid-row-3 md:grid-row-3">
+          <a href="https://play.google.com/store/apps/details?id=com.idoraa.app">
+            <img src="themes/img/google_play.png"
+              srcset="themes/img/google_play@2x.png 2x,themes/img/google_play@3x.png 3x" alt="">
+          </a>
+          <a href="https://apps.apple.com/in/app/idoraa/id1602835506">
+            <img src="themes/img/app_store.png" srcset="themes/img/app_store@2x.png 2x,themes/img/app_store@3x.png 3x"
+              alt="">
+          </a>
+          <a href="">
+            <img src="themes/img/website.png" srcset="themes/img/website@2x.png 2x,themes/img/website@3x.png 3x" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer relative pt-1 border-b-2 border-blue-700 bg-[#131212]">
+    <div class="container px-6">
+      <div class="sm:flex sm:mt-8">
+        <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-around">
+          <div class="flex flex-col">
+            <span class="my-2 py-2"><a href="#" class="text-base hover:text-blue-500 text-footer-gray-text">Why
+                Idoraa</a></span>
+            <span class="my-2 py-2"><a href="#"
+                class="text-base hover:text-blue-500 text-footer-gray-text">Solutions</a></span>
+            <span class="my-2 py-2"><a href="#"
+                class="text-base hover:text-blue-500 text-footer-gray-text">Modules</a></span>
+            <span class="my-2 py-2"><a href="#" class="text-base hover:text-blue-500 text-footer-gray-text">Book a
+                Demo</a></span>
+            <span class="my-2 py-2"><a href="#" class="text-base hover:text-blue-500 text-footer-gray-text">Terms and
+                Conditions</a></span>
+            <span class="my-2 py-2"><a href="#" class="text-base hover:text-blue-500 text-footer-gray-text">Privacy
+                Policy</a></span>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-bold text-base font-HelveticaNeue text-[#bababa] mt-4 md:mt-0 mb-2">Modules</span>
+            <span class="my-2 py-2"><a href="#"
+                class="text-base hover:text-blue-500 text-footer-gray-text">VMS</a></span>
+            <span class="my-2 py-2"><a href="#"
+                class="text-base hover:text-blue-500 text-footer-gray-text">Attendance</a></span>
+            <span class="my-2 py-2"><a href="#"
+                class="text-base hover:text-blue-500 text-footer-gray-text">Travel</a></span>
+            <span class="my-2 py-2"><a href="#"
+                class="text-base hover:text-blue-500 text-footer-gray-text">Cafeteria</a></span>
+            <span class="my-2 py-2"><a href="#"
+                class="text-base hover:text-blue-500 text-footer-gray-text">Assets</a></span>
+            <span class="my-2 py-2"><a href="#"
+                class="text-base hover:text-blue-500 text-footer-gray-text">Payroll</a></span>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-bold font-HelveticaNeue text-[#bababa] mt-4 md:mt-0 mb-2">Upcoming Modules</span>
+            <span class="my-2 py-2"><a href="#" class="text-base hover:text-blue-500 text-footer-gray-text">Facial
+                Recognition</a></span>
+            <span class="my-2 py-2"><a href="#" class="text-base hover:text-blue-500 text-footer-gray-text">Skills
+                Matrix</a></span>
+            <span class="my-2 py-2"><a href="#" class="text-base hover:text-blue-500 text-footer-gray-text">Education &
+                Manufacturing Sector</a></span>
+            <span class="my-2 py-2"><a href="#" class="text-base hover:text-blue-500 text-footer-gray-text">Specific
+                Modules</a></span>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-bold font-HelveticaNeue text-[#bababa] mt-4 md:mt-0 mb-2">Upcoming Modules</span>
+            <span class="my-2 py-2"><a href="#"
+                class="text-base hover:text-blue-500 text-footer-gray-text">Health</a></span>
+            <span class="my-2 py-2"><a href="#"
+                class="text-base hover:text-blue-500 text-footer-gray-text">ITSM</a></span>
+            <span class="my-2 py-2"><a href="#"
+                class="text-base hover:text-blue-500 text-footer-gray-text">Activities</a></span>
+            <span class="my-2 py-2"><a href="#"
+                class="text-base hover:text-blue-500 text-footer-gray-text">Windoraa</a></span>
+            <span class="my-2 py-2"><a href="#" class="text-base hover:text-blue-500 text-footer-gray-text">Idoraa
+                Assistant</a></span>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-bold text-[#bababa] mt-4 md:mt-0 mb-2">Follow us on</span>
+            <a href="#" class="text-base hover:text-blue-500 text-footer-gray-text py-2">
+              <div class="flex flex-row">
+                <img src="themes/img/facebook.png" class="object-contain mr-3"
+                  srcset="themes/img/facebook@2x.png 2x,themes/img/facebook@3x.png 3x" alt="facebook">
+                <span class="my-2">
+                  <a href="#" class="text-base hover:text-blue-500 text-footer-gray-text mx-1.5">Facebook</a>
+                </span>
+              </div>
+            </a>
+            <span class="my-2">
+              <a href="#" class=" text-base hover:text-blue-500 text-footer-gray-text">
+                <div class="flex flex-row">
+                  <img src="themes/img/twitter.png" class="object-contain"
+                    srcset="themes/img/twitter@2x.png 2x,themes/img/twitter@3x.png 3x" alt="youtube">
+                  <span class="my-2">
+                    <p class="text-base hover:text-blue-500 text-footer-gray-text -mt-[6px] mx-1.5">Twitter</p>
+                  </span>
+                </div>
+              </a></span>
+            <span class="my-2">
+              <a href="#" class=" text-base hover:text-blue-500 text-footer-gray-text">
+                <div class="flex flex-row">
+                  <img src="themes/img/whatsapp.png" class="object-contain"
+                    srcset="themes/img/whatsapp@2x.png 2x,themes/img/whatsapp@3x.png 3x" alt="youtube">
+                  <span class="my-2">
+                    <p class="text-base hover:text-blue-500 text-footer-gray-text -mt-[6px] mx-1.5">Whatsapp</p>
+                  </span>
+                </div>
+              </a></span>
+            <span class="my-2">
+              <a href="#" class="text-base hover:text-blue-500 text-footer-gray-text">
+                <div class="flex flex-row">
+                  <img src="themes/img/youtube.png" class="object-contain"
+                    srcset="themes/img/youtube@2x.png 2x,themes/img/youtube@3x.png 3x" alt="youtube">
+                  <span class="my-2">
+                    <p href="#" class="text-base hover:text-blue-500 text-footer-gray-text -mt-[6px] mx-1.5">Youtube</p>
+                  </span>
+                </div>
+              </a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mx-auto px-6 bg-black">
+      <div class="mt-16 flex flex-col items-center">
+        <div class="sm:w-2/3 text-center py-6 text-blue">
+          <p class="text-sm font-HelveticaNeue font-bold mb-2 text-copyright-color">
+            Copyright © 2022. All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const button = document.querySelector('#menu-button');
+    const menu = document.querySelector('#menu');
+
+
+    button.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Idoraa - A complete employee life cycle management product-Book a Demo</title>
+</head>
+
+<body>
+  <div>
+    <nav class="bg-white">
+      <div class="">
+        <div class="flex justify-between">
+          <div class="flex">
+            <div>
+              <a href="#" class="flex items-center py-5 px-7 xs:-ml-5">
+                <img src="themes/img/idoraa-logo-dark.png"
+                  srcset="themes/img/idoraa-logo-dark@2x.png 2x,themes/img/idoraa-logo-dark@3x.png 3x" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="hidden lg:flex md:flex items-center space-x-1 px-8">
+            <a href="#"
+              class="py-5 px-3 font-titiliumWeb text-base text-light-dark-gray font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">Home</a>
+            <a href="#"
+              class="py-5 px-3 font-titiliumWeb text-base text-light-dark-gray font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">About</a>
+            <a href="#"
+              class="py-5 px-3 font-titiliumWeb text-base text-light-dark-gray font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">Problem</a>
+            <a href="#"
+              class="py-5 px-3 font-titiliumWeb text-base text-light-dark-gray font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">Solutions</a>
+            <a href="#"
+              class="py-5 px-3 font-titiliumWeb text-base text-light-dark-gray font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">Modules</a>
+            <a href="#"
+              class="py-5 px-3 font-titiliumWeb text-base text-light-dark-gray font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">Contact
+              Us</a>
+            <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownInformation">
+              <a href="#"
+                class="block py-2 px-4 font-titiliumWeb text-base text-light-dark-gray font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">Login
+                <svg class="ml-2 w-4 h-4 inline-flex" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                  </path>
+                </svg>
+              </a>
+            </button>
+
+
+            <a href="book.html"
+              class="px-5 xl:py-2.5 md:px-2 bg-darkBlue text-white rounded-full font-titiliumWeb font-bold text-center">Book
+              a Demo</a>
+          </div>
+
+          <!-- mobile button goes here -->
+          <div class="md:hidden flex items-center">
+            <a href="book.html"
+              class="px-5 py-2.5 mr-4 xs:px-4 bg-darkBlue text-white rounded-full font-titiliumWeb font-bold text-center">Book
+              a Demo</a>
+            <button data-collapse-toggle="mobile-menu" type="button"
+              class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              aria-controls="mobile-menu-2" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-6 h-6" fill="#000" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                  clip-rule="evenodd"></path>
+              </svg>
+              <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- mobile menu -->
+      <div class="mobile-menu hidden md:hidden" id="mobile-menu">
+        <a href="#"
+          class="block py-2 px-4 font-titiliumWeb text-base text-light-dark-gray font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">Home</a>
+        <a href="#"
+          class="block py-2 px-4 font-titiliumWeb text-base text-light-dark-gray font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">About</a>
+        <a href="#"
+          class="block py-2 px-4 font-titiliumWeb text-base text-light-dark-gray  font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">Problem</a>
+        <a href="#"
+          class="block py-2 px-4 font-titiliumWeb text-base text-light-dark-gray  font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">Solutions</a>
+        <a href="#"
+          class="block py-2 px-4 font-titiliumWeb text-base text-light-dark-gray  font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">Modules</a>
+        <a href="#"
+          class="block py-2 px-4 font-titiliumWeb text-base text-light-dark-gray font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">Contact
+          Us</a>
+        <div class="inline-block text-left dropdown">
+          <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownInformation">
+            <a href="#"
+              class="block py-2 px-4 font-titiliumWeb text-base text-light-dark-gray font-normal hover:text-link hover:underline hover:font-bold hover:underline-offset-8">Login
+              <svg class="ml-2 w-4 h-4 inline-flex" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                </path>
+              </svg>
+            </a>
+          </button>
+
+        </div>
+      </div>
+    </nav>
+    <div id="dropdownInformation"
+      class="hidden z-10 w-44 text-base list-none bg-black divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
+      <ul class="py-1" aria-labelledby="dropdownInformationButton">
+        <li>
+          <a href="#"
+            class="block py-2 px-4 text-base text-white hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Employee</a>
+        </li>
+        <li>
+          <a href="#"
+            class="block py-2 px-4 text-base text-white hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Employer</a>
+        </li>
+        <li>
+          <a href="#"
+            class="block py-2 px-4 text-base text-white hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Visitor/Personal</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+  </div>
+
+  <div>
+    <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
+      <!--Left Col-->
+      <div class="flex flex-col w-full lg:w-1/2 justify-center items-start pt-12 -mt-64 pb-64 px-6 xs:pb-8 xs:-mt-16">
+        <h1 class="font-Gilroy font-bold text-6xl tracking-loose xs:text-5xl md:text-5xl">Book a Demo</h1>
+        <p class="my-4 text-3xl leading-10 xs:text-xl">Fill out the demo request form and a member of our team will be
+          in contact
+          with you shortly.</p>
+      </div>
+      <!--Right Col-->
+      <div class="w-full lg:w-1/2 lg:py-6 text-center xs:pt-12">
+        <!--Add your product image here-->
+        <form action="">
+          <div class="lg:grid lg:grid-cols-2 lg:gap-8 xs:grid-cols-1">
+            <div class="mb-6">
+              <label for="name"
+                class="font-titiliumWeb font-normal text-light-dark-gray flex items-start mb-2 text-sm text-gray-900 dark:text-gray-300 uppercase">Name*</label>
+              <input type="text" id="name"
+                class="bg-white border border-form_border_color rounded-[5px] text-[#999999] text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="First and Last Name" required>
+            </div>
+            <div class="mb-6">
+              <label for="designation"
+                class="font-titiliumWeb font-normal text-light-dark-gray flex items-start mb-2 text-sm text-gray-900 dark:text-gray-300 uppercase">Designation*</label>
+              <input type="text" id="designation"
+                class="bg-gray-50 border border-form_border_color rounded-[5px] text-[#999999] text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Designation" required>
+            </div>
+            <div class="mb-6">
+              <label for="mobile"
+                class="font-titiliumWeb font-normal text-light-dark-gray flex items-start mb-2 text-sm text-gray-900 dark:text-gray-300 uppercase">Mobile
+                (Optional)*</label>
+              <input type="tel" id="mobile"
+                class="bg-gray-50 border border-form_border_color rounded-[5px] text-[#999999] text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Enter your Mobile Number" required>
+            </div>
+            <div class="mb-6">
+              <label for="work-phone"
+                class="font-titiliumWeb font-normal text-light-dark-gray flex items-start mb-2 text-sm text-gray-900 dark:text-gray-300 uppercase">Work
+                Phone</label>
+              <input type="tel" id="work-phone"
+                class="bg-gray-50 border border-form_border_color rounded-[5px] text-[#999999] text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Enter your Work Phone" required>
+            </div>
+            <div class="mb-6">
+              <label for="company"
+                class="font-titiliumWeb font-normal text-light-dark-gray flex items-start mb-2 text-sm text-gray-900 dark:text-gray-300 uppercase">Company*</label>
+              <input type="text" id="company"
+                class="bg-gray-50 border border-form_border_color rounded-[5px] text-[#999999] text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Enter your Company Name" required>
+            </div>
+            <div class="mb-6">
+              <label for="work-email"
+                class="font-titiliumWeb font-normal text-light-dark-gray flex items-start mb-2 text-sm text-gray-900 dark:text-gray-300 uppercase">Work
+                Email</label>
+              <div class="grid grid-rows-2">
+                <input type="email" id="work-email"
+                  class="bg-gray-50 border border-form_border_color rounded-[5px] text-[#999999] text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  placeholder="Enter your Work Email" required>
+                <p class="font-titiliumWeb font-normal text-xs flex items-start ml-1 md:text-xs"><span
+                    class="font-bold">Note</span>: We
+                  do
+                  not accept like Gmail, Hotmail etc</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid grid-cols-1">
+            <div class="mb-6">
+              <label for="company-size"
+                class="font-titiliumWeb font-normal text-light-dark-gray flex items-start mb-2 text-sm text-gray-900 dark:text-gray-300 uppercase">Company
+                Size*</label>
+              <select id="company-size"
+                class="bg-gray-50 border border-form_border_color rounded-[5px] text-darkgray text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                <option value="">Select Company Size</option>
+                <option value="1">1</option>
+                <option value="2-9">2-9</option>
+                <option value="10-19">10-19</option>
+                <option value="20-49">20-49</option>
+                <option value="50-99">50-99</option>
+                <option value="100-199">100-199</option>
+                <option value="200-349">200-349</option>
+                <option value="350-999">350-999</option>
+                <option value="1000-2999">1000-2999</option>
+                <option value="3000+">3000+</option>
+              </select>
+            </div>
+          </div>
+          <div class="grid grid-cols-1">
+            <div class="mb-6">
+              <label for="questions"
+                class="font-titiliumWeb font-normal text-light-dark-gray flex items-start mb-2 text-sm text-gray-900 dark:text-gray-300 uppercase">Any
+                Question & Comments*</label>
+              <textarea id="questions" rows="10"
+                class="block p-2.5 w-full text-sm text-[#999999] bg-gray-50 border border-form_border_color rounded-[5px] focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Type Here..."></textarea>
+            </div>
+          </div>
+          <div class="grid grid-cols-1">
+            <button type="submit"
+              class="text-white w-full bg-darkBlue hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-2xl px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="footer" class="bg-black">
+    <div class="container mx-auto flex flex-col md:flex-row items-center">
+      <div class=" flex flex-col w-full lg:w-1/2 justify-center items-start pt-12 pb-24 px-6">
+        <img src="themes/img/idoraa-logo-1.png"
+          srcset="themes/img/idoraa-logo-1@2x.png 2x,themes/img/idoraa-logo-1@3x.png 3x" alt="">
+        <div class="grid grid-cols-4 gap-4 mt-10">
+          <div class="grid-rows-2 gap-2">
+            <p class="font-titiliumWeb font-semibold text-darkgray xs:text-xs">Registered</p>
+            <img src="themes/img/msme.png" srcset="themes/img/msme@2x.png 2x,themes/img/msme@3x.png 3x" alt="">
+          </div>
+          <div class="grid-rows-2 gap-2">
+            <p class="font-titiliumWeb font-semibold text-darkgray xs:text-xs">In Process</p>
+            <img src="themes/img/startup.png" srcset="themes/img/startup@2x.png 2x,themes/img/startup@3x.png 3x" alt="">
+          </div>
+          <div class="grid-rows-2 gap-2">
+            <p class="font-titiliumWeb font-semibold text-darkgray xs:text-xs">Applied</p>
+            <img src="themes/img/property.png" srcset="themes/img/property@2x.png 2x,themes/img/property@3x.png 3x"
+              alt="">
+          </div>
+          <div class="grid-rows-2 gap-2">
+            <p class="font-titiliumWeb font-semibold text-darkgray xs:text-xs">Make In India</p>
+            <img src="themes/img/make_in_india.png"
+              srcset="themes/img/make_in_india@2x.png 2x,themes/img/make_in_india@3x.png 3x" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="flex lg:w-1/2 lg:py-6 justify-end">
+        <div class="grid grid-rows-3 gap-4 items-end xs:grid-row-3 md:grid-row-3">
+          <a href="https://play.google.com/store/apps/details?id=com.idoraa.app">
+            <img src="themes/img/google_play.png"
+              srcset="themes/img/google_play@2x.png 2x,themes/img/google_play@3x.png 3x" alt="">
+          </a>
+          <a href="https://apps.apple.com/in/app/idoraa/id1602835506">
+            <img src="themes/img/app_store.png" srcset="themes/img/app_store@2x.png 2x,themes/img/app_store@3x.png 3x"
+              alt="">
+          </a>
+          <a href="">
+            <img src="themes/img/website.png" srcset="themes/img/website@2x.png 2x,themes/img/website@3x.png 3x" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer relative pt-1 border-b-2 border-blue-700 bg-[#131212]">
+    <div class="px-6">
+      <div class="sm:flex sm:mt-8">
+        <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-around">
+          <div class="flex flex-col">
+            <span class="my-2 py-2"><a href="#" class="text-base hover:text-blue-500 text-footer-gray-text">Why
+                Idoraa</a></span>
+            <span class="my-2 py-2"><a href="#"
+                class="text-base hover:text-blue-500 text-footer-gray-text">Solutions</a></span>
+            <span class="my-2 py-2"><a href="#"
+                class="text-base hover:text-blue-500 text-footer-gray-text">Modules</a></span>
+            <span class="my-2 py-2"><a href="#" class="text-base hover:text-blue-500 text-footer-gray-text">Book a
+                Demo</a></span>
+            <span class="my-2 py-2"><a href="#" class="text-base hover:text-blue-500 text-footer-gray-text">Terms and
+                Conditions</a></span>
+            <span class="my-2 py-2"><a href="#" class="text-base hover:text-blue-500 text-footer-gray-text">Privacy
+                Policy</a></span>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-bold text-base font-HelveticaNeue text-[#bababa] mt-4 md:mt-0 mb-2">Modules</span>
+            <span class="my-2 py-2"><a href="#"
+                class="text-base hover:text-blue-500 text-footer-gray-text">VMS</a></span>
+            <span class="my-2 py-2"><a href="#"
+                class="text-base hover:text-blue-500 text-footer-gray-text">Attendance</a></span>
+            <span class="my-2 py-2"><a href="#"
+                class="text-base hover:text-blue-500 text-footer-gray-text">Travel</a></span>
+            <span class="my-2 py-2"><a href="#"
+                class="text-base hover:text-blue-500 text-footer-gray-text">Cafeteria</a></span>
+            <span class="my-2 py-2"><a href="#"
+                class="text-base hover:text-blue-500 text-footer-gray-text">Assets</a></span>
+            <span class="my-2 py-2"><a href="#"
+                class="text-base hover:text-blue-500 text-footer-gray-text">Payroll</a></span>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-bold font-HelveticaNeue text-[#bababa] mt-4 md:mt-0 mb-2">Upcoming Modules</span>
+            <span class="my-2 py-2"><a href="#" class="text-base hover:text-blue-500 text-footer-gray-text">Facial
+                Recognition</a></span>
+            <span class="my-2 py-2"><a href="#" class="text-base hover:text-blue-500 text-footer-gray-text">Skills
+                Matrix</a></span>
+            <span class="my-2 py-2"><a href="#" class="text-base hover:text-blue-500 text-footer-gray-text">Education &
+                Manufacturing Sector</a></span>
+            <span class="my-2 py-2"><a href="#" class="text-base hover:text-blue-500 text-footer-gray-text">Specific
+                Modules</a></span>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-bold font-HelveticaNeue text-[#bababa] mt-4 md:mt-0 mb-2">Upcoming Modules</span>
+            <span class="my-2 py-2"><a href="#"
+                class="text-base hover:text-blue-500 text-footer-gray-text">Health</a></span>
+            <span class="my-2 py-2"><a href="#"
+                class="text-base hover:text-blue-500 text-footer-gray-text">ITSM</a></span>
+            <span class="my-2 py-2"><a href="#"
+                class="text-base hover:text-blue-500 text-footer-gray-text">Activities</a></span>
+            <span class="my-2 py-2"><a href="#"
+                class="text-base hover:text-blue-500 text-footer-gray-text">Windoraa</a></span>
+            <span class="my-2 py-2"><a href="#" class="text-base hover:text-blue-500 text-footer-gray-text">Idoraa
+                Assistant</a></span>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-bold text-[#bababa] mt-4 md:mt-0 mb-2">Follow us on</span>
+            <a href="#" class="text-base hover:text-blue-500 text-footer-gray-text py-2">
+              <div class="flex flex-row">
+                <img src="themes/img/facebook.png" class="object-contain mr-3"
+                  srcset="themes/img/facebook@2x.png 2x,themes/img/facebook@3x.png 3x" alt="facebook">
+                <span class="my-2">
+                  <a href="#" class="text-base hover:text-blue-500 text-footer-gray-text mx-1.5">Facebook</a>
+                </span>
+              </div>
+            </a>
+            <span class="my-2">
+              <a href="#" class=" text-base hover:text-blue-500 text-footer-gray-text">
+                <div class="flex flex-row">
+                  <img src="themes/img/twitter.png" class="object-contain"
+                    srcset="themes/img/twitter@2x.png 2x,themes/img/twitter@3x.png 3x" alt="youtube">
+                  <span class="my-2">
+                    <p class="text-base hover:text-blue-500 text-footer-gray-text -mt-[6px] mx-1.5">Twitter</p>
+                  </span>
+                </div>
+              </a></span>
+            <span class="my-2">
+              <a href="#" class=" text-base hover:text-blue-500 text-footer-gray-text">
+                <div class="flex flex-row">
+                  <img src="themes/img/whatsapp.png" class="object-contain"
+                    srcset="themes/img/whatsapp@2x.png 2x,themes/img/whatsapp@3x.png 3x" alt="youtube">
+                  <span class="my-2">
+                    <p class="text-base hover:text-blue-500 text-footer-gray-text -mt-[6px] mx-1.5">Whatsapp</p>
+                  </span>
+                </div>
+              </a></span>
+            <span class="my-2">
+              <a href="#" class="text-base hover:text-blue-500 text-footer-gray-text">
+                <div class="flex flex-row">
+                  <img src="themes/img/youtube.png" class="object-contain"
+                    srcset="themes/img/youtube@2x.png 2x,themes/img/youtube@3x.png 3x" alt="youtube">
+                  <span class="my-2">
+                    <p href="#" class="text-base hover:text-blue-500 text-footer-gray-text -mt-[6px] mx-1.5">Youtube</p>
+                  </span>
+                </div>
+              </a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mx-auto px-6 bg-black">
+      <div class="mt-16 flex flex-col items-center">
+        <div class="sm:w-2/3 text-center py-6 text-blue">
+          <p class="text-sm font-HelveticaNeue font-bold mb-2 text-copyright-color">
+            Copyright © 2022. All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script defer src="./node_modules/flowbite/dist/flowbite.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+@import url("http://fonts.cdnfonts.com/css/gilroy-bold");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[role="tab"].active {
+  @apply text-black border-link hover:text-black font-Gilroy_Bold font-extrabold text-xl;
+}
+
+.dropdown:focus-within .dropdown-menu {
+  opacity: 1;
+  transform: translate(0) scale(1);
+  visibility: visible;
+}
+
+.Rectangle {
+  width: 6px;
+  height: 17px;
+  margin: 49px 24px 66px 0;
+  border-radius: 3px;
+  background-color: #0084ff;
+}
+
+.Rectangle-Orange {
+  width: 6px;
+  height: 17px;
+  margin: 27px 24px 61px 0;
+  border-radius: 3px;
+  background-color: #ff9f0a;
+}
+
+.Rectangle-Brown {
+  width: 6px;
+  height: 17px;
+  margin: 30px 24px 58px 0;
+  border-radius: 3px;
+  background-color: #a2845e;
+}
+
+.Rectangle-Green {
+  width: 6px;
+  height: 17px;
+  margin: 30px 24px 59px 0;
+  border-radius: 3px;
+  background-color: #34c759;
+}
+
+.Rectangle-Blue {
+  width: 6px;
+  height: 17px;
+  margin: 28px 24px 61px 0;
+  border-radius: 3px;
+  background-color: #5ac8fa;
+}
+
+.Rectangle-Purple {
+  width: 6px;
+  height: 17px;
+  margin: 29px 24px 35px 0;
+  border-radius: 3px;
+  background-color: #af52de;
+}
+
+.Rectangle-Red {
+  width: 6px;
+  height: 17px;
+  margin: 29px 24px 35px 0;
+  border-radius: 3px;
+  background-color: #ff453a;
+}
+
+#myTab::-webkit-scrollbar {
+  display: none;
+}
