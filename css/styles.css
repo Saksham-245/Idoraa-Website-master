@@ -1112,32 +1112,24 @@ input:checked + .toggle-bg{
   margin-top: 4rem;
 }
 
-.-mt-16{
-  margin-top: -4rem;
+.mb-56{
+  margin-bottom: 14rem;
 }
 
-.ml-16{
-  margin-left: 4rem;
+.ml-20{
+  margin-left: 5rem;
 }
 
-.ml-6{
-  margin-left: 1.5rem;
+.-mt-12{
+  margin-top: -3rem;
 }
 
-.-mt-24{
-  margin-top: -6rem;
+.mb-20{
+  margin-bottom: 5rem;
 }
 
-.ml-7{
-  margin-left: 1.75rem;
-}
-
-.-mt-7{
-  margin-top: -1.75rem;
-}
-
-.ml-4{
-  margin-left: 1rem;
+.ml-5{
+  margin-left: 1.25rem;
 }
 
 .-mt-10{
@@ -1154,6 +1146,14 @@ input:checked + .toggle-bg{
 
 .-mt-3{
   margin-top: -0.75rem;
+}
+
+.ml-4{
+  margin-left: 1rem;
+}
+
+.-mt-7{
+  margin-top: -1.75rem;
 }
 
 .mt-5{
@@ -1174,10 +1174,6 @@ input:checked + .toggle-bg{
 
 .-ml-4{
   margin-left: -1rem;
-}
-
-.-mt-12{
-  margin-top: -3rem;
 }
 
 .mb-4{
@@ -1240,12 +1236,28 @@ input:checked + .toggle-bg{
   margin-top: 0px;
 }
 
-.ml-20{
-  margin-left: 5rem;
-}
-
 .ml-40{
   margin-left: 10rem;
+}
+
+.-mt-16{
+  margin-top: -4rem;
+}
+
+.ml-16{
+  margin-left: 4rem;
+}
+
+.ml-6{
+  margin-left: 1.5rem;
+}
+
+.-mt-24{
+  margin-top: -6rem;
+}
+
+.ml-7{
+  margin-left: 1.75rem;
 }
 
 .mt-2{
@@ -1318,6 +1330,14 @@ input:checked + .toggle-bg{
 
 .-mb-px{
   margin-bottom: -1px;
+}
+
+.-mt-40{
+  margin-top: -10rem;
+}
+
+.ml-28{
+  margin-left: 7rem;
 }
 
 .block{
@@ -1518,6 +1538,10 @@ input:checked + .toggle-bg{
 
 .w-32{
   width: 8rem;
+}
+
+.w-4\/5{
+  width: 80%;
 }
 
 .min-w-0{
@@ -1784,6 +1808,10 @@ input:checked + .toggle-bg{
 
 .gap-8{
   gap: 2rem;
+}
+
+.gap-y-20{
+  row-gap: 5rem;
 }
 
 .gap-y-3{
@@ -2640,16 +2668,16 @@ input:checked + .toggle-bg{
   padding-top: 0.25rem;
 }
 
-.pt-4{
-  padding-top: 1rem;
+.pt-24{
+  padding-top: 6rem;
 }
 
 .pb-60{
   padding-bottom: 15rem;
 }
 
-.pt-24{
-  padding-top: 6rem;
+.pt-4{
+  padding-top: 1rem;
 }
 
 .pt-2{
@@ -2794,14 +2822,14 @@ input:checked + .toggle-bg{
   line-height: 2rem;
 }
 
+.text-8xl{
+  font-size: 6rem;
+  line-height: 1;
+}
+
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .text-xl{
@@ -2814,14 +2842,14 @@ input:checked + .toggle-bg{
   line-height: 1;
 }
 
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-8xl{
-  font-size: 6rem;
-  line-height: 1;
 }
 
 .text-9xl{
@@ -2877,6 +2905,22 @@ input:checked + .toggle-bg{
   line-height: 2.5rem;
 }
 
+.leading-\[6\.5rem\]{
+  line-height: 6.5rem;
+}
+
+.leading-4{
+  line-height: 4.688rem;
+}
+
+.leading-6{
+  line-height: 1.5rem;
+}
+
+.leading-\[2\.1rem\]{
+  line-height: 2.1rem;
+}
+
 .leading-tight{
   line-height: 1.25;
 }
@@ -2887,14 +2931,6 @@ input:checked + .toggle-bg{
 
 .leading-5{
   line-height: 1.25rem;
-}
-
-.leading-4{
-  line-height: 4.688rem;
-}
-
-.leading-6{
-  line-height: 1.5rem;
 }
 
 .leading-relaxed{
@@ -2976,6 +3012,11 @@ input:checked + .toggle-bg{
 .text-black{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-link{
+  --tw-text-opacity: 1;
+  color: rgb(0 145 234 / var(--tw-text-opacity));
 }
 
 .text-icon_color{
@@ -3405,14 +3446,6 @@ input:checked + .toggle-bg{
     margin-top: 0px;
   }
 
-  .md\:mt-20{
-    margin-top: 5rem;
-  }
-
-  .md\:mr-4{
-    margin-right: 1rem;
-  }
-
   .md\:-mt-4{
     margin-top: -1rem;
   }
@@ -3455,6 +3488,14 @@ input:checked + .toggle-bg{
 
   .md\:mt-24{
     margin-top: 6rem;
+  }
+
+  .md\:mt-20{
+    margin-top: 5rem;
+  }
+
+  .md\:mr-4{
+    margin-right: 1rem;
   }
 
   .md\:flex{
@@ -3515,16 +3556,16 @@ input:checked + .toggle-bg{
     padding-left: 0px;
   }
 
-  .md\:pb-16{
-    padding-bottom: 4rem;
-  }
-
   .md\:pr-7{
     padding-right: 1.75rem;
   }
 
   .md\:pb-80{
     padding-bottom: 20rem;
+  }
+
+  .md\:pb-16{
+    padding-bottom: 4rem;
   }
 
   .md\:text-5xl{
@@ -3535,11 +3576,6 @@ input:checked + .toggle-bg{
   .md\:text-xs{
     font-size: 0.75rem;
     line-height: 1rem;
-  }
-
-  .md\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 
   .md\:text-8xl{
@@ -3560,6 +3596,11 @@ input:checked + .toggle-bg{
   .md\:text-sm{
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
@@ -3609,10 +3650,6 @@ input:checked + .toggle-bg{
 }
 
 @media (min-width: 1280px){
-  .xl\:mt-40{
-    margin-top: 10rem;
-  }
-
   .xl\:-ml-11{
     margin-left: -2.75rem;
   }
@@ -3637,6 +3674,10 @@ input:checked + .toggle-bg{
     margin-bottom: -5rem;
   }
 
+  .xl\:mt-40{
+    margin-top: 10rem;
+  }
+
   .xl\:hidden{
     display: none;
   }
@@ -3651,6 +3692,24 @@ input:checked + .toggle-bg{
     --tw-space-x-reverse: 0;
     margin-right: calc(10rem * var(--tw-space-x-reverse));
     margin-left: calc(10rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .xl\:space-x-36 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-x-reverse: 0;
+    margin-right: calc(9rem * var(--tw-space-x-reverse));
+    margin-left: calc(9rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .xl\:space-x-3 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-x-reverse: 0;
+    margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+    margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .xl\:space-x-32 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-x-reverse: 0;
+    margin-right: calc(8rem * var(--tw-space-x-reverse));
+    margin-left: calc(8rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .xl\:py-2\.5{
@@ -3695,24 +3754,9 @@ input:checked + .toggle-bg{
     text-align: right;
   }
 
-  .xl\:text-5xl{
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .xl\:text-7xl{
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
   .xl\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
-  }
-
-  .xl\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .xl\:text-xl{
@@ -3720,9 +3764,19 @@ input:checked + .toggle-bg{
     line-height: 1.75rem;
   }
 
+  .xl\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
   .xl\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .xl\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .xl\:text-6xl{
@@ -3733,6 +3787,11 @@ input:checked + .toggle-bg{
   .xl\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .xl\:text-7xl{
+    font-size: 4.5rem;
+    line-height: 1;
   }
 }
 
@@ -3745,36 +3804,36 @@ input:checked + .toggle-bg{
     margin-top: -4rem;
   }
 
-  .xs\:ml-1{
-    margin-left: 0.25rem;
+  .xs\:mr-8{
+    margin-right: 2rem;
   }
 
-  .xs\:-mb-96{
-    margin-bottom: -24rem;
-  }
-
-  .xs\:mt-3{
-    margin-top: 0.75rem;
-  }
-
-  .xs\:-mt-24{
-    margin-top: -6rem;
-  }
-
-  .xs\:mt-24{
-    margin-top: 6rem;
-  }
-
-  .xs\:-mr-28{
-    margin-right: -7rem;
-  }
-
-  .xs\:-mr-3{
-    margin-right: -0.75rem;
+  .xs\:mb-4{
+    margin-bottom: 1rem;
   }
 
   .xs\:ml-0{
     margin-left: 0px;
+  }
+
+  .xs\:ml-1{
+    margin-left: 0.25rem;
+  }
+
+  .xs\:-ml-8{
+    margin-left: -2rem;
+  }
+
+  .xs\:mt-12{
+    margin-top: 3rem;
+  }
+
+  .xs\:ml-6{
+    margin-left: 1.5rem;
+  }
+
+  .xs\:-mr-3{
+    margin-right: -0.75rem;
   }
 
   .xs\:mt-5{
@@ -3791,18 +3850,6 @@ input:checked + .toggle-bg{
 
   .xs\:mr-0{
     margin-right: 0px;
-  }
-
-  .xs\:-ml-8{
-    margin-left: -2rem;
-  }
-
-  .xs\:mt-12{
-    margin-top: 3rem;
-  }
-
-  .xs\:ml-6{
-    margin-left: 1.5rem;
   }
 
   .xs\:ml-4{
@@ -3825,12 +3872,36 @@ input:checked + .toggle-bg{
     margin-top: 2rem;
   }
 
+  .xs\:-mb-96{
+    margin-bottom: -24rem;
+  }
+
   .xs\:ml-10{
     margin-left: 2.5rem;
   }
 
   .xs\:ml-28{
     margin-left: 7rem;
+  }
+
+  .xs\:mt-3{
+    margin-top: 0.75rem;
+  }
+
+  .xs\:-mt-24{
+    margin-top: -6rem;
+  }
+
+  .xs\:mt-24{
+    margin-top: 6rem;
+  }
+
+  .xs\:-mr-28{
+    margin-right: -7rem;
+  }
+
+  .xs\:ml-12{
+    margin-left: 3rem;
   }
 
   .xs\:flex{
@@ -3893,6 +3964,18 @@ input:checked + .toggle-bg{
     padding-top: 3rem;
   }
 
+  .xs\:pl-0{
+    padding-left: 0px;
+  }
+
+  .xs\:pr-8{
+    padding-right: 2rem;
+  }
+
+  .xs\:pb-40{
+    padding-bottom: 10rem;
+  }
+
   .xs\:pb-36{
     padding-bottom: 9rem;
   }
@@ -3911,18 +3994,6 @@ input:checked + .toggle-bg{
 
   .xs\:pb-2{
     padding-bottom: 0.5rem;
-  }
-
-  .xs\:pl-0{
-    padding-left: 0px;
-  }
-
-  .xs\:pr-8{
-    padding-right: 2rem;
-  }
-
-  .xs\:pb-40{
-    padding-bottom: 10rem;
   }
 
   .xs\:text-center{
@@ -3944,21 +4015,6 @@ input:checked + .toggle-bg{
     line-height: 1rem;
   }
 
-  .xs\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .xs\:text-6xl{
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
-  .xs\:text-sm{
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
   .xs\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -3969,14 +4025,53 @@ input:checked + .toggle-bg{
     line-height: 1.5rem;
   }
 
+  .xs\:text-sm{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .xs\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .xs\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
   .xs\:text-\[27px\]{
     font-size: 27px;
+  }
+
+  .xs\:text-\[23px\]{
+    font-size: 23px;
   }
 }
 
 @media (min-width: 481px) and (max-width: 767px){
+  .sm-l\:ml-8{
+    margin-left: 2rem;
+  }
+
+  .sm-l\:-mt-14{
+    margin-top: -3.5rem;
+  }
+
+  .sm-l\:ml-4{
+    margin-left: 1rem;
+  }
+
   .sm-l\:-mb-96{
     margin-bottom: -24rem;
+  }
+
+  .sm-l\:mt-20{
+    margin-top: 5rem;
+  }
+
+  .sm-l\:ml-32{
+    margin-left: 8rem;
   }
 
   .sm-l\:mt-8{
@@ -3997,26 +4092,6 @@ input:checked + .toggle-bg{
 
   .sm-l\:-mr-2{
     margin-right: -0.5rem;
-  }
-
-  .sm-l\:ml-8{
-    margin-left: 2rem;
-  }
-
-  .sm-l\:-mt-14{
-    margin-top: -3.5rem;
-  }
-
-  .sm-l\:ml-4{
-    margin-left: 1rem;
-  }
-
-  .sm-l\:mt-20{
-    margin-top: 5rem;
-  }
-
-  .sm-l\:ml-32{
-    margin-left: 8rem;
   }
 
   .sm-l\:hidden{
@@ -4049,10 +4124,6 @@ input:checked + .toggle-bg{
     padding: 0.75rem;
   }
 
-  .sm-l\:pb-64{
-    padding-bottom: 16rem;
-  }
-
   .sm-l\:pr-0{
     padding-right: 0px;
   }
@@ -4061,23 +4132,12 @@ input:checked + .toggle-bg{
     padding-right: 2rem;
   }
 
+  .sm-l\:pb-64{
+    padding-bottom: 16rem;
+  }
+
   .sm-l\:text-center{
     text-align: center;
-  }
-
-  .sm-l\:text-4xl{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
-  .sm-l\:text-xl{
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .sm-l\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .sm-l\:text-5xl{
@@ -4085,9 +4145,24 @@ input:checked + .toggle-bg{
     line-height: 1;
   }
 
+  .sm-l\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .sm-l\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .sm-l\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .sm-l\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .sm-l\:leading-tight{
